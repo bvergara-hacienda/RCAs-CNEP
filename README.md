@@ -8,13 +8,15 @@ Este repositorio contiene los códigos utilizados para la extracción y estandar
 
 El repositorio está organizado en dos carpetas principales:
 
-- `codigo_principal/`  
+- `codigo_principal`  
   Contiene la metodología principal, que combina herramientas gratuitas de OCR y procesamiento de texto con modelos de lenguaje (LLMs) para extraer y clasificar las obligaciones ambientales. Esta metodología genera bases intermedias con considerandos y subconsiderandos organizados, listas para su interpretación por el modelo de IA.
 
-- `codigo_alternativo/`  
+- `codigo_alternativo`  
   Contiene la metodología alternativa, que utiliza Amazon Textract para la extracción estructurada de texto y tablas desde PDF, seguida de la interpretación de obligaciones mediante LLMs. Esta vía permite comparar resultados y evaluar consistencia frente a la metodología principal.
 
 ---
+
+
 
 ## Flujo de Trabajo
 
@@ -36,8 +38,8 @@ Ambas metodologías convergen en esta etapa, aunque difieren en el insumo que pr
 
 ## Resultados
 
-Los resultados finales de ambas metodologías se encuentran disponibles en OneDrive:  
-[📂 Acceder a los resultados](TU_LINK_ONEDRIVE_AQUI)
+Los resultados finales de ambas metodologías se encuentran disponibles en Drive:  
+[📂 Acceder a los resultados](https://drive.google.com/drive/folders/1Gy96X38YkbMpZLdYdguJUGaFGxNfXbwA?usp=sharing)
 
 ---
 
